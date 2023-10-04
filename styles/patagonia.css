@@ -1,0 +1,41 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #242635;
+    text-align: center;
+  }
+
+h1 {
+    color: #242635;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.horses {
+    width: 80%;
+    max-width: 940px;
+    height: 100vh;
+    margin: 0 auto 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: center;
+}
+
+@media screen and (max-width: 768px) {
+    .horses {
+        background-image: url(../images/patagonia_m.png);
+    }    
+}
+
+@media screen and (max-width: 320px) {
+    .horses {
+        background-image: url(../images/patagonia_s.png);
+    }    
+}
+
+@media screen and (min-width: 769px) {
+    .horses {
+        background-image: url(../images/patagonia_l.png);
+    }    
+}
