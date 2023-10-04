@@ -6,7 +6,6 @@
   }
 
 h1 {
-    color: #242635;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
@@ -14,7 +13,6 @@ h1 {
 .horses {
     width: 80%;
     max-width: 940px;
-    height: 100vh;
     margin: 0 auto 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,17 +23,34 @@ h1 {
 @media screen and (max-width: 768px) {
     .horses {
         background-image: url(../images/patagonia_m.png);
+        height: 512px;
+    }
+    .h1 {
+        color: rebeccapurple;
+        font-size: 72px;
+        letter-spacing: -1.6px;
     }    
 }
 
 @media screen and (max-width: 320px) {
     .horses {
         background-image: url(../images/patagonia_s.png);
-    }    
+        height: 284px;
+    }
+    .h1 {
+        font-size: 90px;
+        letter-spacing: -2px;
+    }   
 }
 
 @media screen and (min-width: 769px) {
     .horses {
         background-image: url(../images/patagonia_l.png);
+        height:328px;
+    }
+    .h1 {
+        color: red;
+        font-size: 90px;
+        letter-spacing: -2px;
     }    
 }
